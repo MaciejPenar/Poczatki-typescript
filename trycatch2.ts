@@ -11,12 +11,12 @@ let n = 5; // n = liczba
 
 try {
     if (n < 0) {
-    throw "liczba < 0, wpisz wieksza liczbe"
+        throw "liczba < 0, wpisz wieksza liczbe"
     }
     if (n >= 0) {
-    console.log(silnia2(n))
+        console.log(silnia2(n))
     }
 }
-catch(e) {
+catch (e) {
     console.log(e);
 }

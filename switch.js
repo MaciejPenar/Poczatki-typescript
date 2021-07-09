@@ -13,8 +13,6 @@ function codeStatus(status) {
             break;
         case Status["Server Error"]:
             break;
-        default:
-            throw Error("No code status found");
     }
     console.log(message);
 }
